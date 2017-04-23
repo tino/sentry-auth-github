@@ -33,6 +33,13 @@ Verified email addresses can optionally be required:
     GITHUB_REQUIRE_VERIFIED_EMAIL = True
 
 
+If you want to limit access to users of a single GitHub organization, add:
+
+.. code-block:: python
+
+    GITHUB_ORGANIZATION = 'myorg'
+
+
 Optionally you may also specify the domain (for GHE users):
 
 .. code-block:: python
