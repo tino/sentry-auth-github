@@ -13,13 +13,9 @@ Install
 Setup
 -----
 
-Create a new application under your organization in GitHub. Enter the **Authorization
-callback URL** as the prefix to your Sentry installation:
-
-::
-
-    https://example.sentry.com
-
+Create a new application under your organization in GitHub. In the **Authorization
+callback URL** field, enter the prefix to your Sentry installation, for example: 
+``https://sentry.yourdomain.com``.
 
 Once done, grab your API keys and drop them in your ``sentry.conf.py``:
 
@@ -28,7 +24,7 @@ Once done, grab your API keys and drop them in your ``sentry.conf.py``:
     GITHUB_APP_ID = ""
 
     GITHUB_API_SECRET = ""
-
+    
 
 Verified email addresses can optionally be required:
 
